@@ -12,9 +12,9 @@ int main(void)
 	int d;
 
 	c = 'a';
-	d = 0;
+	d = '0';
 	while
-		(d < 10) {
+		(d <= 9) {
 			putchar(d + 0);
 			d++;
 		}
