@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry poit
+ * main - Entry point
  *
  * return: Always 0 (success)
  */
+
 int main(void)
 {
 	int a;
@@ -15,6 +16,7 @@ int main(void)
 		{
 			putchar(',');
 			putchar(' ');
+	a++;
 		}
 	}
 	putchar('\n');
