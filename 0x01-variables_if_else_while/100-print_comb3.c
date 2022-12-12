@@ -2,34 +2,29 @@
 /**
  * main - Entry point
  *
- * return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, j;
+	int ones = '0';
+	int tens = '0';
 
-	i = 48;
-	j = 48;
-
-	while (i < 58)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
-		j = i + 1;
-		while (j < 58)
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			putchar(i);
-			putchar(j);
-
-			if (i < 56 || j < 57)
+			if (!((ones == tens) || (tens > ones)))
 			{
-				putchar(44);
-				putchar(32);
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			j++;
-		}		
-		i++;
+		}
 	}
-
-	putchar(10);
-
+	putchar('\n');
 	return (0);
 }
