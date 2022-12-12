@@ -2,9 +2,8 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char c;
@@ -12,12 +11,13 @@ int main(void)
 	int d;
 
 	c = 'a';
-for (d = 0; d <= 10;)
-{
-	putchar(d);
-d++;
-}
-while
+	d = 0;
+	while
+		(d < 10) {
+			putchar(d + '0');
+			d++;
+		}
+	while
 		(c <= 'f') {
 			putchar(c);
 			c++;
