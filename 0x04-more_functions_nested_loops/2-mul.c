@@ -1,4 +1,3 @@
- (12 sloc)  196 Bytes
 #include "main.h"
 /**
  * mul - a function that multiples two integers.
