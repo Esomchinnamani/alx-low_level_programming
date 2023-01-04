@@ -1,19 +1,3 @@
-enthronea
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x08-recursion/100-is_palindrome.c
-@Enthronep
-Enthronep recursion
- 1 contributor
-51 lines (51 sloc)  930 Bytes
 #include "main.h"
 int check_pal(char *s, int i, int len);
 int _strlen_recursion(char *s);
